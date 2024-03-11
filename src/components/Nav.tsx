@@ -6,7 +6,6 @@ import React from "react";
 
 export const Nav = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <header>
