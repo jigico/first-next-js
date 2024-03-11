@@ -8,7 +8,7 @@ export const Nav = () => {
       <Link href="/ssgRendering">SSG</Link>
       <Link href="/isrRendering">ISR</Link>
       <Link href="/csrRendering">CSR</Link>
-      <Link href="/ssgRendering">SSR</Link>
+      <Link href="/ssrRendering">SSR</Link>
     </nav>
   );
 };
