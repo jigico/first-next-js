@@ -1,5 +1,13 @@
+import { SSG } from "@/components/SSG";
 import React from "react";
 
-export default function ssgRendering() {
-  return <div>렌더링 방식 : SSG</div>;
-}
+const SsgRenderingPage = () => {
+  return (
+    <>
+      <div>SsgRenderingPage</div>
+      <SSG />
+    </>
+  );
+};
+
+export default SsgRenderingPage;
